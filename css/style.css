@@ -1,0 +1,364 @@
+/*common part css*/
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.fw-semiBold {
+  font-weight: 600;
+}
+.fw-medium {
+  font-weight: 500;
+}
+body {
+  top: 0 !important;
+  font-family: "Lato", sans-serif;
+}
+/* header-top-bar part css  */
+
+#header-top-bar {
+  background-color: #0c2e60;
+}
+
+/* language bar */
+.language {
+  width: 120px;
+  position: relative;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.language-selected {
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+.language ul {
+  width: 140px;
+  display: none;
+  padding: 10px 0;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.language ul li {
+  list-style: none;
+}
+
+.language ul li a {
+  display: block;
+  color: #252525;
+  padding: 5px 15px;
+}
+
+.language ul li:hover {
+  background-color: #4facfc;
+}
+
+.language:hover ul {
+  display: block;
+}
+/* language bar */
+
+/* navbar part css  */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #4facfc;
+}
+.nav-item::after {
+  top: 50%;
+  left: -8px;
+  width: 1px;
+  height: 50%;
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: #dee2e6;
+}
+/* banner part css  */
+
+#banner {
+  padding: 200px 0;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/banner-img.jpg);
+}
+#banner::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(12, 46, 96, 0.8);
+}
+.banner-text {
+  z-index: 1;
+}
+.banner-text h3 {
+  color: #4facfc;
+  text-shadow: 0px 0px 3px #000;
+}
+.banner-text span {
+  color: #4facfc;
+}
+.banner-text .btn {
+  height: 50px;
+  font-size: 16px;
+  padding: 0 35px;
+  letter-spacing: 1px;
+  background-color: #4facfc;
+}
+/* feature part css  */
+.feature-item h5 {
+  color: #4facfc;
+}
+/* agant-registation part css  */
+#agant-registation {
+  background-color: #0c2e60;
+}
+.registion-btn .btn {
+  height: 50px;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  background-color: #4facfc;
+}
+.more-btn .btn {
+  height: 50px;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  background-color: #4facfc;
+}
+/* package part css  */
+.package-header h4 {
+  color: #4facfc;
+}
+.package-text a {
+  color: #4facfc;
+}
+
+.review a i {
+  color: #ffd700;
+}
+
+/* map part css  */
+.location-match h3 {
+  color: #4facfc;
+}
+.location-match h4 {
+  color: #4facfc;
+}
+.location-match p {
+  color: #4facfc;
+}
+.location-match .form-control {
+  height: 50px;
+  font-weight: 300;
+}
+.location-match .btn {
+  height: 50px;
+  background-color: #4facfc;
+}
+/* footer part css  */
+#footer {
+  background-color: #0c2e60;
+}
+#footer small {
+  color: #4facfc;
+}
+
+/* mooring page part start  */
+#mooring_banner {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/mooring_banner.jpg);
+}
+#mooring_banner::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  background-color: rgba(79, 171, 252, 0.8);
+}
+.price_btn .btn {
+  background-color: #4facfc;
+}
+.modal-dialog {
+  max-width: 100%;
+}
+.banner-text {
+  z-index: 1;
+  position: relative;
+}
+
+/* yacht charter page banner part start  */
+#charter_banner {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/yatch\ banner.png);
+}
+#charter_banner::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(79, 171, 252, 0.7);
+}
+/* charter_about part css  */
+
+.white-logo {
+  opacity: 0.3;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  height: 50px;
+  font-weight: normal !important;
+  background-color: #4facfc;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+  top: 50%;
+  font-size: 40px;
+  transform: translateY(-50%);
+}
+.carousel-control-next i,
+.carousel-control-prev i {
+  color: #4facfc;
+  background-color: #ffffff;
+  width: 40px;
+  border-radius: 50%;
+}
+.specifications h3 {
+  color: #ef8410;
+}
+.booking-btn .btn {
+  height: 50px;
+  background-color: #4facfc;
+}
+.golden-header {
+  color: #ffd700;
+}
+/* yacht_service page css start  */
+
+#yacht_service {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/yatch_supply_banner.png);
+}
+#yacht_service::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(79, 171, 252, 0.8);
+}
+/* about_banner page css start  */
+
+#about_banner {
+}
+#about_banner {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/about_banner.png);
+}
+#about_banner::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(79, 171, 252, 0.8);
+}
+.header-text h4 {
+  color: #4facfc;
+}
+/* contact page css start  */
+
+#contact_banner {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/contact_banner.png);
+}
+#contact_banner::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(79, 171, 252, 0.8);
+}
+.contact_taxt p {
+  color: #395fa5;
+}
+.contact_taxt .form-height {
+  height: 50px;
+}
+.contact_taxt .btn {
+  background-color: #4facfc;
+}
+/* termsandsecurity part css  */
+#termsandsecurity {
+  position: relative;
+  background-color: #4facfc;
+}
+.footer-text small a {
+  color: #4facfc;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .language ul {
+    width: auto;
+    z-index: 99999;
+    left: -20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .language ul {
+    width: 130px;
+    z-index: 9999;
+  }
+}

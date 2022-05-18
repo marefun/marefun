@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <!-- google font Quicksand -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+    <!-- font-awesome 4.7.0  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- favicon  -->
+    <link rel="icon" href="./images/favicon.png" />
+
+    <title>Descrizione del sito</title>
+  </head>
+  <body>
+    <!-- header-top-bar part html start -->
+    <header id="header-top-bar" class="py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 col-md-6">
+            <div class="top-bar-content d-md-flex">
+              <div class="mobile-number me-4">
+                <a class="d-flex align-items-center text-white fw-light" href="tel:+393386525512"><i class="fa fa-phone me-2"></i> +39 338-652-5512</a>
+              </div>
+              <div class="mail-number">
+                <a class="d-flex align-items-center text-white fw-light" href="mailto:info@marefun.it"><i class="fa fa-envelope me-2"></i> info@marefun.it</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-6">
+            <div class="top-bar-content justify-content-end d-flex">
+              <div class="language">
+                <div class="language-selected">English <i class="fa fa-caret-down ms-1"></i></div>
+                <ul>
+                  <!-- English -->
+                  <li><a href="#" class="en">English</a></li>
+                  <!-- Itali -->
+                  <li><a href="#" class="it">Italiano</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="logo" class="py-2 bg-light d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="logo text-center">
+              <a href="./index.html"> <img src="./images/logo2.png" alt="logo.png" class="img-fluid" /> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- header-top-bar part html end -->
+
+    <!-- navbar part html start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3 shadow-sm border-top">
+      <div class="container">
+        <a class="navbar-brand d-lg-none" href="#"><img src="./images/logo2.png" alt="logo.png" class="img-fluid" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link fw-light" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item position-relative mx-2">
+              <a class="nav-link fw-light" href="./mooring.html">MOORING</a>
+            </li>
+            <li class="nav-item position-relative mx-2">
+              <a class="nav-link fw-light" href="./yacht_charter.html">YACHT CHARTER</a>
+            </li>
+            <li class="nav-item position-relative mx-2">
+              <a class="nav-link fw-light" href="./yacht_service.html">YACHT SERVICE/ SUPPLY</a>
+            </li>
+            <li class="nav-item position-relative mx-2">
+              <a class="nav-link fw-light" href="./about.html">ABOUT </a>
+            </li>
+            <li class="nav-item position-relative mx-2">
+              <a class="nav-link fw-light active" href="./contact.html">CONTACT </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar part html end -->
+
+    <!-- contact banner part html start -->
+    <section id="contact_banner" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="banner-text contact-banner text-center py-5">
+              <h3 class="display-4 text-white mb-0">Contact us</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact banner part html end -->
+
+    <!-- contact main part html start  -->
+    <section id="contact_main" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact_taxt mb-4">
+              <h5 class="fs-4 fw-light mb-4">Drop us a line</h5>
+              <p class="fs-5 mb-2"><em>Without contact, nothing works. So, if you want more information about our company, prices, availability or really anything….</em></p>
+              <p class="fs-5"><em>Drop us your information and we will contact you promptly.</em></p>
+
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-light">Name :</label>
+                  <input type="text" class="form-control bg-light form-height" id="name" aria-describedby="emailHelp" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-light">Email :</label>
+                  <input type="email" class="form-control bg-light form-height" id="email" aria-describedby="emailHelp" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-light">Message :</label>
+                  <textarea name="messages" class="form-control bg-light" id="messages" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn fs-5 fw-light px-5 text-white mt-2">Contact</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="map_address">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.1649403189085!2d9.62001441517063!3d40.99976292789792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d93727e5a02b01%3A0xfd7c23d9e04e0182!2sMare%20Fun%20Charter%20%26%20Marina!5e0!3m2!1sen!2sbd!4v1647706754242!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="address-text pt-3">
+                <div class="row m-auto">
+                  <div class="col-md-6">
+                    <div class="d-flex m-auto justify-content-between py-2 border-bottom">
+                      <div class="adderss fw-light">Address :</div>
+                      <div class="area fw-light text-dark">Via Dei Marinai</div>
+                    </div>
+                    <div class="d-flex m-auto justify-content-between py-2">
+                      <div class="adderss fw-light">City :</div>
+                      <div class="area fw-light text-dark">Golfo Aranci</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex m-auto justify-content-between py-2 border-bottom">
+                      <div class="adderss fw-light">Phone :</div>
+                      <div class="area fw-light"><a class="text-dark" href="tel:+39 338-652-5512">+39 338-652-5512</a></div>
+                    </div>
+                    <div class="d-flex m-auto justify-content-between py-2">
+                      <div class="adderss fw-light">Email :</div>
+                      <div class="area fw-light"><a class="text-dark" href="mailto:info@marefun.it">info@marefun.it</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact main part html end  -->
+
+    <!-- footer part html start -->
+    <section id="footer" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-text text-center text-md-start mb-md-0 mb-4">
+              <small class="fw-light text-white"><span>Copyright</span> © 2022 <a class="fs-6" href="./index.html"> marefun.com</a></small>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-text text-center text-md-end">
+              <small class="fw-light text-white">
+                <label> <a class="fs-6" href="./TermsSecurity.html">Terms & Security</a> </label></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part html end -->
+
+    <!-- jquery library functions 1.12.4v  -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- language change language js  -->
+    <script src="./js/language.js"></script>
+  </body>
+</html>
